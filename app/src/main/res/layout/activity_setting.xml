@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    android:gravity="center"
+    tools:context=".NotificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="171dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="설 정"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/setting" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created By Team 불법삐삐" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버전 : ver 1.0.0" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="문의 : 개선 참여 및 정정 요청" />
+
+    </LinearLayout>
+
+</LinearLayout>

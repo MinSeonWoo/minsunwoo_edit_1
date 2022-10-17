@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    android:gravity="center"
+    tools:context=".BookmarkActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="즐 겨 찾 기"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/heart_no_outline"
+                    android:backgroundTint="#E91E63" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 청파동1마을공원공영주차장(구)\n전체 주차면 : 105면\n전화번호 : 070-8956-2371\n도로명주소 : 용산구 원효로97길 50\n지번주소 : 용산구 청파동3가 118-102" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 효창공원 주차장\n전체 주차면 : 94면\n전화번호 : 02-703-1246\n지번주소 : 용산구 효창동 257-0" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. 효창운동장공영주차장\n전체 주차면 : 70면\n도로명주소 : 용산구 효창원로 177-15\n지번주소 : 용산구 효창동 3-0" />
+
+    </LinearLayout>
+
+</LinearLayout>

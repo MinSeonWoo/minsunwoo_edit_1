@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    tools:context=".NotificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="171dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="알 림 함"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/notification" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[ 9월 28일 ]\n\n2022년 09월 28일 21시 08분 불법 주정차 내역이 있습니다.\n단속동 : 청파동\n단속장소 : 서울특별시 용산구 후암동 소월로\n위반내용 : 주정차위반\n\n2022년 09월 28일 21:08:14"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[ 9월 21일 ]\n\n2022년 09월 21일 09시 58분 불법 주정차 내역이 있습니다.\n단속동 : 청파동\n단속장소 : 서울특별시 용산구 청파동 만리재로\n위반내용 : 주정차위반\n\n2022년 09월 21일 09:58:05"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[ 8월 30일 ]\n\n2022년 08월 30일 12시 41분 불법 주정차 내역이 있습니다.\n단속동 : 남영동\n단속장소 : 서울특별시 용산구 남영동 한강대로102가길\n위반내용 : 주정차위반\n\n2022년 08월 30일 12:41:04"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
