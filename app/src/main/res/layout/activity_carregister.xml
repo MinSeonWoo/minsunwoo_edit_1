@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFEFF3F9"
+android:gravity="center"
+tools:context=".CarRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="785dp"
+        android:background="@color/white"
+        android:foregroundTint="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="차량  정보  등록"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="차량1 번호"
+            android:textColor="#3F48CC"
+            android:textSize="30sp" />
+
+
+        <EditText
+            android:id="@+id/textView4"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="  12가3456, 123가4567"
+            android:inputType="text"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:singleLine="true"
+            android:textColor="#7E7777"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="140dp"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="차량2 번호"
+            android:textColor="#3F48CC"
+            android:textSize="30sp" />
+
+
+        <EditText
+            android:id="@+id/textView10"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="  (선택) 두 대의 차량등록이 가능합니다."
+            android:inputType="text"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:singleLine="true"
+            android:textColor="#7E7777"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="차량별명"
+            android:textColor="#3F48CC"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/textView6"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="  (선택) 최대 6자리 입력해주세요."
+            android:inputType="text"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:singleLine="true"
+            android:textColor="#7E7777"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="등록하기"
+            android:textAlignment="gravity"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

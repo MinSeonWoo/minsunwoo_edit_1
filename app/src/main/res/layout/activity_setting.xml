@@ -10,13 +10,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="778dp"
         android:orientation="vertical">
 
         <TableLayout
             android:layout_width="match_parent"
-            android:gravity="center"
-            android:layout_height="171dp">
+            android:layout_height="80dp"
+            android:gravity="center">
 
             <TableRow
                 android:layout_width="match_parent"

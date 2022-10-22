@@ -13,35 +13,37 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="80dp"
             android:gravity="center">
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/button19"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:background="@drawable/list" />
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:background="@drawable/list"
+                    android:gravity="center" />
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="270dp"
-                    android:layout_height="48dp"
+                    android:layout_width="246dp"
+                    android:layout_height="44dp"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
                     android:text="즐 겨 찾 기"
                     android:textColor="#3F48CC"
-                    android:textSize="20sp" />
+                    android:textSize="22sp" />
 
                 <Button
                     android:id="@+id/button20"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
                     android:background="@drawable/heart_no_outline"
                     android:backgroundTint="#E91E63" />
 

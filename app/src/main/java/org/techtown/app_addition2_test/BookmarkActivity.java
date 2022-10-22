@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class BookmarkActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +17,10 @@ public class BookmarkActivity extends AppCompatActivity {
         button19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainToListActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainToList3Activity.class);
                 startActivity(intent);
             }
         });
     }
+
 }

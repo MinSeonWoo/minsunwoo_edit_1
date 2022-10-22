@@ -1,41 +1,22 @@
 package org.techtown.app_addition2_test;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainToListActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainToList4Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_to_list);
 
-        Button button111 = findViewById(R.id.button111);
-        button111.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-            }
-        });
+        setContentView(R.layout.activity_main_to_list4);
 
-        Button button112 = findViewById(R.id.button112);
-        button112.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-        Button button5 = findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
+        Button button200 = findViewById(R.id.button200);
+        button200.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), CarRegisterActivity.class);
@@ -43,8 +24,8 @@ public class MainToListActivity extends AppCompatActivity {
             }
         });
 
-        Button button6 = findViewById(R.id.button6);
-        button6.setOnClickListener(new View.OnClickListener() {
+        Button button201 = findViewById(R.id.button201);
+        button201.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), NotificationActivity.class);
@@ -52,8 +33,8 @@ public class MainToListActivity extends AppCompatActivity {
             }
         });
 
-        Button button9 = findViewById(R.id.button9);
-        button9.setOnClickListener(new View.OnClickListener() {
+        Button button202 = findViewById(R.id.button202);
+        button202.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SettingActivity.class);
@@ -66,6 +47,17 @@ public class MainToListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        Button btn2 = findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ChangeActivity.class);
                 startActivity(intent);
             }
         });
