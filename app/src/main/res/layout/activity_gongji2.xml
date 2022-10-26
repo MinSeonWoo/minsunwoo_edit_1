@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    android:gravity="center"
+    android:textAlignment="textStart"
+    android:textDirection="firstStrongRtl"
+    tools:context=".Gongji2Activity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="778dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="공 지 사 항"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/pngegg" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="377dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="안녕하세요. Happy Parking 입니다. \n\n아래에 해당하는 Happy Parking 서비스 약관이 2022년 10월 24일부로 변경됨을 사전 안내해 드립니다. \n\n주요 변경 내용을 참고하시어 서비스 이용 부탁드립니다. \n\n*주요 개정내용 및 사유 [서비스 이용약관-약관 내용 수정(서비스 이용범위), 개인정보처리방침-개인정보 제3자 정보] "
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

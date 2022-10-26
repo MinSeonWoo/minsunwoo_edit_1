@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    android:gravity="center"
+    tools:context=".FQA_Activity">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="731dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/list" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="270dp"
+                    android:layout_height="48dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="자주  묻는  질문 (FAQ)"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="45dp"
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/search" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. 주차권을 예약했는데 만차일 수도 있나요?"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. 보유 차량이 여러 대일 경우 어떻게 이용하나요?"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. 연박 주차를 하고 싶은데 가능한가요?"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button96"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. 차량번호 변경이 가능한가요?"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/button95"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q. 입차 예정시간보다 일찍 입차해도 상관없나요?"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF3F9"
+    tools:context=".MainToListActivity">
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="742dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="171dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="156dp"
+                    android:layout_height="189dp"
+                    android:gravity="left"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="288dp"
+                    android:layout_height="192dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="민선우 님\n\n환영합니다!"
+                    android:textColor="#3F48CC"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="차량정보등록" />
+
+        <Button
+            android:id="@+id/button89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="알림함" />
+
+        <Button
+            android:id="@+id/button90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공지사항" />
+
+        <Button
+            android:id="@+id/button91"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자주 묻는 질문" />
+
+        <Button
+            android:id="@+id/button92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="설정" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인화면 이동" />
+
+    </LinearLayout>
+
+</LinearLayout>
