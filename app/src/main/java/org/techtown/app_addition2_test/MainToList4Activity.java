@@ -57,7 +57,7 @@ public class MainToList4Activity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ChangeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Change2Activity.class);
                 startActivity(intent);
             }
         });

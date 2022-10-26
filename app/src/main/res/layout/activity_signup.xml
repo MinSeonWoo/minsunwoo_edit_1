@@ -27,14 +27,14 @@
 
                 <Button
                     android:id="@+id/button30"
-                    android:layout_width="48dp"
+                    android:layout_width="43dp"
                     android:layout_height="48dp"
                     android:background="@drawable/list"
-                    tools:visibility="invisible" />
+                    tools:visibility="visible" />
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="270dp"
+                    android:layout_width="302dp"
                     android:layout_height="48dp"
                     android:fontFamily="sans-serif-black"
                     android:gravity="center"
@@ -179,7 +179,7 @@
         <Button
             android:id="@+id/button12"
             android:layout_width="match_parent"
-            android:layout_height="89dp"
+            android:layout_height="85dp"
             android:text="회원가입하기"
             android:textAlignment="gravity"
             android:textSize="22sp"
