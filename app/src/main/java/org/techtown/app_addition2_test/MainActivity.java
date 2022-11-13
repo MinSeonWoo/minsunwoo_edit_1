@@ -97,14 +97,14 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Map", "지도 준비됨.");
                 map = googleMap;
 
-                LatLng spot1 = new LatLng(37.542708, 126.9685344);
-                googleMap.addMarker(new MarkerOptions().position(spot1).title("청파동1마을공원공영주차장(구)"));
-                LatLng spot2 = new LatLng(37.5440385, 126.9598717);
-                googleMap.addMarker(new MarkerOptions().position(spot2).title("효창공원 주차장"));
-                LatLng spot3 = new LatLng(37.5439234, 126.9610276);
-                googleMap.addMarker(new MarkerOptions().position(spot3).title("효창운동장공영주차장"));
-                LatLng spot4 = new LatLng(37.5471248, 126.9695611);
-                googleMap.addMarker(new MarkerOptions().position(spot4).title("청파주차장(민영)"));
+                LatLng spot1 = new LatLng(36.8357, 127.1481);
+                googleMap.addMarker(new MarkerOptions().position(spot1).title("ㅎ"));
+                LatLng spot2 = new LatLng(36.8324, 127.1479);
+                googleMap.addMarker(new MarkerOptions().position(spot2).title("메가박스"));
+                LatLng spot3 = new LatLng(36.8336, 127.1458);
+                googleMap.addMarker(new MarkerOptions().position(spot3).title("한아름마트"));
+                LatLng spot4 = new LatLng(36.8348, 127.1459);
+                googleMap.addMarker(new MarkerOptions().position(spot4).title("통닭신사"));
             }
         });
 
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.d("Map", message);
 
-                if (Math.round(latitude) == 38 && Math.round(longitude) == 127) {
+                if (Math.round(latitude) == 37 && Math.round(longitude) == 127) {
                     showNoti1();
                 } else {
                     Toast.makeText(this, "Math.round(latitude) : " + Math.round(latitude) + "\nMath.round(longitude) : " + Math.round(longitude), Toast.LENGTH_LONG).show();

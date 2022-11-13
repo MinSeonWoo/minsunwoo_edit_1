@@ -54,7 +54,7 @@
 
         <androidx.appcompat.widget.SearchView
             android:id="@+id/search_view"
-            android:layout_width="411dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"
             app:iconifiedByDefault="false"
             app:queryHint="검색어 입력">
